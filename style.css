@@ -1,0 +1,88 @@
+/* macOS wallpaper background */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.wallpaper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://static1.squarespace.com/static/5e949a92e17d55230cd1d44f/t/66679789de52f27958b42936/1718065050515/SequoiaLight.png') no-repeat center center;
+    background-size: cover;
+    z-index: -1;
+}
+
+/* macOS window style */
+.window {
+    width: 400px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+    margin: 100px auto;
+    overflow: hidden;
+}
+
+.title-bar {
+    height: 40px;
+    background-color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    height: 24px;
+    width: 24px;
+    margin-right: 8px;
+}
+
+.title {
+    font-weight: 600;
+}
+
+.content {
+    padding: 20px;
+}
+
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    background: #007aff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #005ecb;
+}
+
+.results {
+    margin-top: 15px;
+}
+
+#strengthText {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#timeText {
+    font-size: 1em;
+    color: #555;
+}
