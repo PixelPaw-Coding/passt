@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passt - Password Security Checker</title>
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wallpaper"></div>
+
+    <div class="window">
+        <div class="title-bar">
+            <img src="logo.png" alt="Passt Logo" class="logo">
+            <span class="title">Passt</span>
+        </div>
+        <div class="content">
+            <label for="password">Enter password:</label>
+            <input type="password" id="password" placeholder="Type your password">
+            <button id="checkBtn">Check Password</button>
+
+            <div class="results">
+                <p id="strengthText"></p>
+                <p id="timeText"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
